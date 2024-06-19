@@ -158,7 +158,7 @@ void scroll_text(const char *str, int y, int delay_ms) {
       checkAnswer(YESIL);
     }
 
-    delay(delay_ms);
+    delay(delay_ms); 
   }
 
   int endIndex = strlen(str) - MAX_CHARS_PER_LINE;
